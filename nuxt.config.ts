@@ -6,6 +6,6 @@ export default defineNuxtConfig({
     "~/assets/css/default.css"
   ],
   app: {
-    baseURL: '/kohiruimaki.github.io/',
+    baseURL: '/kohiruimaki.github.io',
   }
 })
