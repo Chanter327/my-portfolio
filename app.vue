@@ -26,7 +26,4 @@ div#site-content.navigate {
         opacity: 1;
     }
 }
-div#site-content.not-works {
-    display: none;
-}
 </style>
