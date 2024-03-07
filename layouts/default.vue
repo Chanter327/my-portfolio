@@ -8,7 +8,7 @@ onMounted(() => {
         const offsetY = e.clientY - 20;
         stalker.style.transform = 'translate(' + offsetX + 'px, ' + offsetY + 'px)';
     });
-  });
+});
 
 const handleMenu = () => {
     const menu = document.getElementById('menu');
@@ -41,6 +41,19 @@ function navigate(link) {
     menu.classList.remove('active');
     for (let i = 0; i < menuContent.length; i++) {
         menuContent[i].classList.remove('active');
+    }
+
+    function isWorksPage(url) {
+        return url.includes('works');
+    }
+    const currentUrl = window.location.href;
+    const isWorks = isWorksPage(currentUrl);
+    console.log(isWorks);
+
+    if (isWorks) {
+        siteContent.classList.add('not-works');
+    } else {
+        siteContent.classList.remove('not-works');
     }
 }
 
