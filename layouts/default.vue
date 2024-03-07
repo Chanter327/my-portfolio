@@ -37,7 +37,7 @@ function navigate(link) {
     }, 1800);
     setTimeout(() => {
         navigateTo(link);
-    }, 750)
+    }, 1000)
     menu.classList.remove('active');
     for (let i = 0; i < menuContent.length; i++) {
         menuContent[i].classList.remove('active');
