@@ -1,0 +1,218 @@
+{
+  "resolvedId": "/Users/kohiruimakiyuuto/Documents/My-development/my-portfolio/assets/css/default.css",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/* reset.css */\n@import url(\"https://unpkg.com/modern-css-reset/dist/reset.min.css\");\n/* google fonts */\n@import url(\"https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Noto+Serif+Display:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap\");\n\nhtml {\n    background-color: black;\n    color: white;\n    font-family: \"Open Sans\", \"Noto Sans JP\", sans-serif;\n    font-size: 10px;\n    font-weight: 300;\n    scroll-behavior: smooth;\n    -ms-overflow-style: none;\n    scrollbar-width: none;\n}\nhtml::-webkit-scrollbar {\n    display: none;\n}\nbody {\n    width: 100vw;\n}\ndiv.container {\n    position: relative;\n    width: 100%;\n    min-height: 100vh;\n    overflow-x: hidden;\n    -ms-overflow-style: none;\n    scrollbar-width: none;\n    transition: 0.5s;\n}\ndiv.container::-webkit-scrollbar {\n    display: none;\n}\ndiv.container.move {\n    transform: translateY(30rem);\n}\n#mouse-stalker {\n    pointer-events: none;\n    position: fixed;\n    top: -10px;\n    left: -10px;\n    width: 20px;\n    height: 20px;\n    background-color: white;\n    border-radius: 50%;\n    transform: translate(0,0);\n    transition: transform 0.2s;\n    transition-timing-function: ease-out;\n    z-index: 999;\n    mix-blend-mode: difference;\n}\n@media (hover: none) {\n    #mouse-stalker {\n        display: none;\n    }\n}\ndiv.wrapper {\n    width: 95%;\n    margin: auto;\n}\nheader {\n    padding-top: 3rem;\n    background-color: black;\n    width: 100%;\n    height: 12rem;\n    display: flex;\n    align-items: start;\n}\ndiv.alt-header {\n    height: 12rem;\n}\ndiv.updated {\n    text-align: left;\n    font-size: 2rem;\n    order: 0;\n}\ndiv#menu {\n    text-align: right;\n    font-size: 2rem;\n    position: relative;\n    cursor: pointer;\n    order: 2;\n}\ndiv#menu::before {\n    content: \"\";\n    position: absolute;\n    bottom: 0;\n    width: 100%;\n    height: 1px;\n    background-color: white;\n    transform: scaleX(0);\n    transition: transform 0.5s;\n    transform-origin: right top;\n}\ndiv#menu.active::before {\n    transform: scaleX(1);\n    transform-origin: left top;\n}\n@media (hover:hover) {\n    div#menu:hover::before {\n        transform: scaleX(1);\n        transform-origin: left top;\n    }\n}\nli.menu-content {\n    position: relative;\n    list-style: none;\n    text-align: right;\n    position: absolute;\n    right: -50%;\n    transition: 0.5s;\n    font-size: 2rem;\n    transition: 0.5s;\n    cursor: pointer;\n}\nli.menu-content a {\n    color: inherit;\n    text-decoration: none;\n}\n@media (hover:hover) {\n    li.menu-content:hover {\n        list-style: disc;\n    }\n}\nli.menu-content:nth-of-type(1) {\n    top: 6rem;\n}\nli.menu-content:nth-of-type(2) {\n    top: 8.5rem;\n    transition-delay: 0.1s;\n}\nli.menu-content:nth-of-type(3) {\n    top: 11rem;\n    transition-delay: 0.2s;\n}\nli.menu-content.active {\n    right: 2.5%;\n}\ndiv#menu-for-sp {\n    position: absolute;\n    display: grid;\n    place-items: center;\n    top: -50%;\n    width: 100%;\n    height: 30rem;\n    padding: 3rem 0;\n    text-align: center;\n    font-size: 3rem;\n    border-bottom: 0.5px solid #777;\n    transition: 0.5s;\n}\ndiv#menu-for-sp.active {\n    top: 0;\n}\ndiv#menu-for-sp ul {\n    width: 100%;\n    padding-left: 0;\n}\ndiv#menu-for-sp li {\n    list-style: none;\n    width: 80%;\n    margin: auto;\n    padding-top: 2rem;\n    border-bottom: 1px solid white;\n}\n@media screen and (min-width: 601px) {\n    div.menu-for-sp {\n        display: none;\n    }\n}\n@media screen and (max-width: 600px) {\n    li.menu-content {\n        display: none;\n    }\n}\ndiv.site-title {\n    flex-grow: 1;\n    text-align: center;\n    font-size: 4rem;\n    line-height: 100%;\n    order: 1;\n    white-space: nowrap;\n    cursor: pointer;\n}\ndiv.site-title span {\n    font-size: 3rem;\n}\n@media screen and (max-width: 450px) {\n    div.site-title {\n        font-size: 3.5rem;\n    }\n    div.site-title span {\n        font-size: 2.4rem;\n    }\n}\na {\n    color: #00dc82;\n}\nfooter {\n    margin-top: 5rem;\n    padding: 5rem;\n    text-align: center;\n    font-size: 1.6rem;\n}\ndt.github-url {\n    margin-top: 2rem;\n}\n@media screen and (max-width: 800px) {\n    html {\n        font-size: 8px;\n    }\n\n}\n@media screen and (max-width: 600px) {\n    div.wrapper {\n        width: 90%;\n    }\n    header {\n        display: block;\n    }\n    div.alt-header {\n        display: none;\n    }\n    div.updated {\n        margin-top: 3rem;\n    }\n    div#menu {\n        margin-top: -6rem;\n        width: min-content;\n        margin-left: auto;\n    }\n}",
+      "start": 1717069840188,
+      "end": 1717069840203,
+      "sourcemaps": null
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1717069840203,
+      "end": 1717069840203,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1717069840203,
+      "end": 1717069840203,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1717069840203,
+      "end": 1717069840203,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "result": "@import url(\"https://unpkg.com/modern-css-reset/dist/reset.min.css\");@import url(\"https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Noto+Serif+Display:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap\");html{background-color:#000;color:#fff;font-family:Open Sans,Noto Sans JP,sans-serif;font-size:10px;font-weight:300;scroll-behavior:smooth;-ms-overflow-style:none;scrollbar-width:none}html::-webkit-scrollbar{display:none}body{width:100vw}div.container{min-height:100vh;overflow-x:hidden;position:relative;width:100%;-ms-overflow-style:none;scrollbar-width:none;transition:.5s}div.container::-webkit-scrollbar{display:none}div.container.move{transform:translateY(30rem)}#mouse-stalker{background-color:#fff;border-radius:50%;height:20px;left:-10px;mix-blend-mode:difference;pointer-events:none;position:fixed;top:-10px;transform:translate(0);transition:transform .2s;transition-timing-function:ease-out;width:20px;z-index:999}@media (hover:none){#mouse-stalker{display:none}}div.wrapper{margin:auto;width:95%}header{align-items:start;background-color:#000;display:flex;padding-top:3rem;width:100%}div.alt-header,header{height:12rem}div.updated{font-size:2rem;order:0;text-align:left}div#menu{cursor:pointer;font-size:2rem;order:2;position:relative;text-align:right}div#menu:before{background-color:#fff;bottom:0;content:\"\";height:1px;position:absolute;transform:scaleX(0);transform-origin:right top;transition:transform .5s;width:100%}div#menu.active:before{transform:scaleX(1);transform-origin:left top}@media (hover:hover){div#menu:hover:before{transform:scaleX(1);transform-origin:left top}}li.menu-content{cursor:pointer;font-size:2rem;list-style:none;position:relative;position:absolute;right:-50%;text-align:right;transition:.5s}li.menu-content a{color:inherit;text-decoration:none}@media (hover:hover){li.menu-content:hover{list-style:disc}}li.menu-content:first-of-type{top:6rem}li.menu-content:nth-of-type(2){top:8.5rem;transition-delay:.1s}li.menu-content:nth-of-type(3){top:11rem;transition-delay:.2s}li.menu-content.active{right:2.5%}div#menu-for-sp{border-bottom:.5px solid #777;display:grid;font-size:3rem;height:30rem;padding:3rem 0;place-items:center;position:absolute;text-align:center;top:-50%;transition:.5s;width:100%}div#menu-for-sp.active{top:0}div#menu-for-sp ul{padding-left:0;width:100%}div#menu-for-sp li{border-bottom:1px solid #fff;list-style:none;margin:auto;padding-top:2rem;width:80%}@media screen and (min-width:601px){div.menu-for-sp{display:none}}@media screen and (max-width:600px){li.menu-content{display:none}}div.site-title{cursor:pointer;flex-grow:1;font-size:4rem;line-height:100%;order:1;text-align:center;white-space:nowrap}div.site-title span{font-size:3rem}@media screen and (max-width:450px){div.site-title{font-size:3.5rem}div.site-title span{font-size:2.4rem}}a{color:#00dc82}footer{font-size:1.6rem;margin-top:5rem;padding:5rem;text-align:center}dt.github-url{margin-top:2rem}@media screen and (max-width:800px){html{font-size:8px}}@media screen and (max-width:600px){div.wrapper{width:90%}header{display:block}div.alt-header{display:none}div.updated{margin-top:3rem}div#menu{margin-left:auto;margin-top:-6rem;width:-moz-min-content;width:min-content}}",
+      "start": 1717069840203,
+      "end": 1717069840486,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1717069840486,
+      "end": 1717069840486,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1717069840486,
+      "end": 1717069840486,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1717069840486,
+      "end": 1717069840486,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "start": 1717069840487,
+      "end": 1717069840487,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1717069840487,
+      "end": 1717069840487,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1717069840487,
+      "end": 1717069840487,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1717069840487,
+      "end": 1717069840487,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:chunk-error",
+      "start": 1717069840487,
+      "end": 1717069840487,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1717069840487,
+      "end": 1717069840487,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1717069840487,
+      "end": 1717069840487,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1717069840487,
+      "end": 1717069840487,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1717069840487,
+      "end": 1717069840487,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "result": "",
+      "start": 1717069840487,
+      "end": 1717069840487,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1717069840487,
+      "end": 1717069840487,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1717069840487,
+      "end": 1717069840487,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1717069840487,
+      "end": 1717069840487,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1717069840487,
+      "end": 1717069840487,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1717069840487,
+      "end": 1717069840487,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1717069840487,
+      "end": 1717069840487,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1717069840487,
+      "end": 1717069840487,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1717069840487,
+      "end": 1717069840487,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1717069840487,
+      "end": 1717069840487,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1717069840487,
+      "end": 1717069840487,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:runtime-paths-dep",
+      "start": 1717069840487,
+      "end": 1717069840487,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:route-injection-plugin",
+      "start": 1717069840487,
+      "end": 1717069840487,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1717069840487,
+      "end": 1717069840487,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1717069840487,
+      "end": 1717069840487,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1717069840487,
+      "end": 1717069840487,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1717069840487,
+      "end": 1717069840487,
+      "order": "normal"
+    }
+  ]
+}

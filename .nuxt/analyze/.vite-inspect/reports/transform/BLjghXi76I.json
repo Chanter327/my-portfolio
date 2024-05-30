@@ -1,0 +1,214 @@
+{
+  "resolvedId": "/Users/kohiruimakiyuuto/Documents/My-development/my-portfolio/pages/works.vue",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "<script setup>\nimport '@/assets/css/works.css';\n</script>\n<template>\n    <div class=\"site-map\">Home - Works</div>\n    <div class=\"title\">Works</div>\n    <div class=\"work-content\">\n        <div class=\"work-preview-container\">\n            <img src=\"@/assets/images/nabe2-management.png\" alt=\"\">\n        </div>\n        <div class=\"work-content-desc\">\n            <div class=\"desc-title\">勤怠・社内管理アプリ</div>\n            <div class=\"desc-txt\">\n                Ruby on Railsで開発した勤怠・スケジュール管理アプリです。<br>\n                クライアントの要望を聞き、それに合わせて<br class=\"tb\">\n                デザイン、開発、公開を一人で行いました。<br>\n                よりユーザーが使いやすいUI / UXデザインを意識しました。\n            </div>\n            <dl class=\"dev-env\">\n                <dt class=\"env-title\">開発言語</dt>\n                <dd class=\"env-list\">Frontend : HTML, Sass, JavaScript</dd>\n                <dd class=\"env-list\">Backend : Ruby(Ruby on Rails)</dd>\n                <dt class=\"env-title\">その他</dt>\n                <dd class=\"env-list\">git, github, render.com</dd>\n                <dt class=\"env-title\">デモ</dt>\n                <dd class=\"env-list\">not uploaded yet ...</dd>\n            </dl>\n        </div>\n    </div>\n    <div class=\"work-content\">\n        <div class=\"work-preview-container\">\n            <img src=\"@/assets/images/irorodot-s.png\" alt=\"\">\n        </div>\n        <div class=\"work-content-desc\">\n            <div class=\"desc-title\">Iroro.s Web site</div>\n            <div class=\"desc-txt\">\n                ロゴやパッケージデザインを販売提供する企業の<br class=\"tb\">\n                サイトをデザイン、コーディングし、<br class=\"tb\">\n                SEO対策を施しました。<br>\n                イラストに目がいくような表示方法、サイズ感を<br class=\"tb\">\n                意識してデザインをしました。\n            </div>\n            <dl class=\"dev-env\">\n                <dt class=\"env-title\">開発言語</dt>\n                <dd class=\"env-list\">Frontend : HTML, Sass, JavaScript(jQuery, slick.js)</dd>\n                <dd class=\"env-list\">Backend : PHP</dd>\n                <dt class=\"env-title\">その他</dt>\n                <dd class=\"env-list\">git, github</dd>\n                <dt class=\"env-title\">サイト</dt>\n                <dd class=\"env-list\"><a href=\"https://irorodot-s.com\" target=\"_blank\">https://irorodot-s.com</a></dd>\n            </dl>\n        </div>\n    </div>\n</template>\n<style>\n</style>",
+      "start": 1717069840303,
+      "end": 1717069840369,
+      "sourcemaps": null
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1717069840369,
+      "end": 1717069840369,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1717069840369,
+      "end": 1717069840369,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1717069840369,
+      "end": 1717069840369,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1717069840369,
+      "end": 1717069840369,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1717069840369,
+      "end": 1717069840369,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1717069840369,
+      "end": 1717069840369,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1717069840369,
+      "end": 1717069840369,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": "import { createElementVNode as _createElementVNode, createTextVNode as _createTextVNode, createStaticVNode as _createStaticVNode } from \"vue\"\nimport _imports_0 from '@/assets/images/nabe2-management.png'\nimport _imports_1 from '@/assets/images/irorodot-s.png'\n\n\nconst _hoisted_1 = /*#__PURE__*/_createStaticVNode(\"<div class=\\\"site-map\\\">Home - Works</div><div class=\\\"title\\\">Works</div><div class=\\\"work-content\\\"><div class=\\\"work-preview-container\\\"><img src=\\\"\" + _imports_0 + \"\\\" alt=\\\"\\\"></div><div class=\\\"work-content-desc\\\"><div class=\\\"desc-title\\\">勤怠・社内管理アプリ</div><div class=\\\"desc-txt\\\"> Ruby on Railsで開発した勤怠・スケジュール管理アプリです。<br> クライアントの要望を聞き、それに合わせて<br class=\\\"tb\\\"> デザイン、開発、公開を一人で行いました。<br> よりユーザーが使いやすいUI / UXデザインを意識しました。 </div><dl class=\\\"dev-env\\\"><dt class=\\\"env-title\\\">開発言語</dt><dd class=\\\"env-list\\\">Frontend : HTML, Sass, JavaScript</dd><dd class=\\\"env-list\\\">Backend : Ruby(Ruby on Rails)</dd><dt class=\\\"env-title\\\">その他</dt><dd class=\\\"env-list\\\">git, github, render.com</dd><dt class=\\\"env-title\\\">デモ</dt><dd class=\\\"env-list\\\">not uploaded yet ...</dd></dl></div></div><div class=\\\"work-content\\\"><div class=\\\"work-preview-container\\\"><img src=\\\"\" + _imports_1 + \"\\\" alt=\\\"\\\"></div><div class=\\\"work-content-desc\\\"><div class=\\\"desc-title\\\">Iroro.s Web site</div><div class=\\\"desc-txt\\\"> ロゴやパッケージデザインを販売提供する企業の<br class=\\\"tb\\\"> サイトをデザイン、コーディングし、<br class=\\\"tb\\\"> SEO対策を施しました。<br> イラストに目がいくような表示方法、サイズ感を<br class=\\\"tb\\\"> 意識してデザインをしました。 </div><dl class=\\\"dev-env\\\"><dt class=\\\"env-title\\\">開発言語</dt><dd class=\\\"env-list\\\">Frontend : HTML, Sass, JavaScript(jQuery, slick.js)</dd><dd class=\\\"env-list\\\">Backend : PHP</dd><dt class=\\\"env-title\\\">その他</dt><dd class=\\\"env-list\\\">git, github</dd><dt class=\\\"env-title\\\">サイト</dt><dd class=\\\"env-list\\\"><a href=\\\"https://irorodot-s.com\\\" target=\\\"_blank\\\">https://irorodot-s.com</a></dd></dl></div></div>\", 4)\n\nimport '@/assets/css/works.css';\n\nconst _sfc_main = {\n  __name: 'works',\n  setup(__props) {\n\n\nreturn (_ctx, _cache) => {\n  return _hoisted_1\n}\n}\n\n}\n\n\n\nexport default _sfc_main",
+      "start": 1717069840369,
+      "end": 1717069840369,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1717069840369,
+      "end": 1717069840369,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1717069840369,
+      "end": 1717069840369,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1717069840369,
+      "end": 1717069840369,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:chunk-error",
+      "start": 1717069840369,
+      "end": 1717069840369,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1717069840369,
+      "end": 1717069840369,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1717069840370,
+      "end": 1717069840370,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1717069840370,
+      "end": 1717069840370,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1717069840370,
+      "end": 1717069840370,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1717069840370,
+      "end": 1717069840370,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1717069840370,
+      "end": 1717069840370,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1717069840371,
+      "end": 1717069840371,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1717069840371,
+      "end": 1717069840371,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1717069840371,
+      "end": 1717069840371,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1717069840371,
+      "end": 1717069840371,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1717069840371,
+      "end": 1717069840371,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1717069840371,
+      "end": 1717069840371,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1717069840371,
+      "end": 1717069840373,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1717069840373,
+      "end": 1717069840373,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1717069840373,
+      "end": 1717069840373,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:runtime-paths-dep",
+      "start": 1717069840373,
+      "end": 1717069840373,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:route-injection-plugin",
+      "start": 1717069840373,
+      "end": 1717069840373,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1717069840373,
+      "end": 1717069840373,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1717069840373,
+      "end": 1717069840373,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1717069840373,
+      "end": 1717069840374,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1717069840374,
+      "end": 1717069840374,
+      "order": "normal"
+    }
+  ]
+}
